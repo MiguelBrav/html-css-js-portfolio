@@ -60,20 +60,21 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/in/miguelangel-segurabravo/'"
+            onclick="window.open('https://linkedin.com/in/miguelangel-segurabravo/', '_blank')"
+
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/MiguelBrav'"
+            onclick="window.open('https://github.com/MiguelBrav', '_blank')"
           />
         </div>
       </div>
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <h2 class="title">About Me</h2>
       <div class="section-container">
         <div class="section__pic-container">
           <img
@@ -90,8 +91,8 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
-              <p>1+ years <br />Backend Development</p>
+              <h4>Experience</h4>
+              <p>1+ years plus half a year. <br />Backend Development.</p>
             </div>
             <div class="details-container">
               <img
@@ -99,15 +100,17 @@
                 alt="Education icon"
                 class="icon"
               />
-              <h3>Education</h3>
-              <p>Computer Systems Engineer</p>
+              <h4>Education</h4>
+              <p>Computer Systems Engineer.</p>
             </div>
           </div>
           <div class="text-container">
             <p>
               Computer Systems Engineer with experience in backend development using .Net (C#).
               <br>
-              I am also interested in mobile application development and have learned Flutter as a hobby.
+              Proficient in building RESTful APIs, GraphQL APIs, and gRPC services using .NET technologies. 
+              <br>
+              In frontend development,  Razor Pages along with HTML, CSS, and JavaScript to create web applications. 
               <br>
               Passionate about learning and staying up-to-date in the technology world. Contact with me to collaborate on projects!
             </p>
@@ -123,11 +126,11 @@
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h2 class="title">Experience</h2>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h3 class="experience-sub-title">Frontend Development</h3>
             <div class="article-container">
               <article>
                 <img
@@ -136,7 +139,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
+                  <h4>HTML</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -147,7 +150,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
+                  <h4>CSS</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -158,14 +161,25 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
+                  <h4>JavaScript</h4>
                   <p>Basic</p>
                 </div>
-              </article>       
+              </article>     
+              <article>
+                <img
+                  src="./assets/aspnetcore.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Razor Pages</h4>
+                  <p>Basic</p>
+                </div>
+              </article>      
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
+            <h3 class="experience-sub-title">Backend Development</h3>
             <div class="article-container">
               <article>
                 <img
@@ -174,7 +188,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>T-SQL</h3>
+                  <h4>T-SQL</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -185,7 +199,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>.Net</h3>
+                  <h4>.Net</h4>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -196,7 +210,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>C#</h3>
+                  <h4>C#</h4>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -207,7 +221,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
+                  <h4>Git</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -217,9 +231,20 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
-                  <h3>Graphql</h3>
-                  <p>Intermediate</p>
+                  <div>
+                  <h4>Graphql</h4>
+                  <p>Intermediate</p>    
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/grpc.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                  <div>
+                  <h4>Grpc</h4>
+                  <p>Basic</p>    
                 </div>
               </article>
             </div>
@@ -235,7 +260,7 @@
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <h2 class="title">Projects</h2>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
@@ -246,18 +271,18 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">GraphQLTest</h2>
+            <h3 class="experience-sub-title project-title">GraphQLTest</h3>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/MiguelBrav/GraphQLTest'"
+                onclick="window.open('https://github.com/MiguelBrav/GraphQLTest', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://booktestapi.application-service.work/graphql/'"
-              >
+                onclick="window.open('https://booktestapi.application-service.work/graphql/', '_blank')"
+                >
                 Live Demo
               </button>
             </div>
@@ -270,17 +295,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">YGO Wiki</h2>
+            <h3 class="experience-sub-title project-title">YGO Wiki</h3>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/MiguelBrav/YGOWiki'"
+                onclick="window.open('https://github.com/MiguelBrav/YGOWiki', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ygoclient.application-service.work/swagger/index.html'"
+                onclick="window.open('https://ygoclient.application-service.work/swagger/index.html', '_blank')"
               >
                 Live Demo
               </button>
@@ -294,17 +319,18 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">ToDoList</h2>
+            <h3 class="experience-sub-title project-title">ToDoList</h3>
             <div class="btn-container">
               <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/MiguelBrav/ToDoList'"
+                class="btn btn-color-2 project-btn"       
+                onclick="window.open('https://github.com/MiguelBrav/ToDoList', '_blank')"
+
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/MiguelBrav/ToDoList'"
+                onclick="window.open('https://github.com/MiguelBrav/ToDoList', '_blank')"
               >
                 Live Demo - WIP
               </button>
@@ -321,7 +347,7 @@
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
+      <h2 class="title">Contact Me</h2>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -337,7 +363,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/miguelangel-segurabravo/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/miguelangel-segurabravo/" target="_blank">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -352,7 +378,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Miguel Segura. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Miguel Segura. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>

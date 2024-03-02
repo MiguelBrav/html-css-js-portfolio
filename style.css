@@ -335,17 +335,18 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: start;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  
 }
 
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: stretch;
   gap: 0.5rem;
 }
 
