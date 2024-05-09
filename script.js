@@ -1,3 +1,8 @@
+let year = new Date().getFullYear();
+
+let actualYearElement = document.getElementById('actualYear');
+actualYearElement.textContent = year;  
+
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
