@@ -10,6 +10,10 @@
   #projects {
     height: fit-content;
   }
+  .carousel-container{
+    height: fit-content;
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -99,5 +103,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .carousel-container{
+    height: fit-content;
   }
 }
